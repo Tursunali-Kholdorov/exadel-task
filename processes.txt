@@ -1,0 +1,103 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.3  1.2 103060 12684 ?        Ss   08:25   0:05 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    08:25   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   08:25   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   08:25   0:00 [rcu_par_gp]
+root           6  0.0  0.0      0     0 ?        I<   08:25   0:00 [kworker/0:0H-events_highpri]
+root           7  0.0  0.0      0     0 ?        I    08:25   0:00 [kworker/0:1-events]
+root           8  0.0  0.0      0     0 ?        I    08:25   0:00 [kworker/u30:0-events_unbound]
+root           9  0.0  0.0      0     0 ?        I<   08:25   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    08:25   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    08:25   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    08:25   0:00 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    08:25   0:00 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    08:25   0:00 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    08:25   0:00 [idle_inject/0]
+root          16  0.0  0.0      0     0 ?        S    08:25   0:00 [cpuhp/0]
+root          17  0.0  0.0      0     0 ?        S    08:25   0:00 [kdevtmpfs]
+root          18  0.0  0.0      0     0 ?        I<   08:25   0:00 [netns]
+root          19  0.0  0.0      0     0 ?        I<   08:25   0:00 [inet_frag_wq]
+root          20  0.0  0.0      0     0 ?        S    08:25   0:00 [kauditd]
+root          21  0.0  0.0      0     0 ?        S    08:25   0:00 [khungtaskd]
+root          22  0.0  0.0      0     0 ?        S    08:25   0:00 [oom_reaper]
+root          23  0.0  0.0      0     0 ?        I<   08:25   0:00 [writeback]
+root          24  0.0  0.0      0     0 ?        S    08:25   0:00 [kcompactd0]
+root          25  0.0  0.0      0     0 ?        SN   08:25   0:00 [ksmd]
+root          26  0.0  0.0      0     0 ?        SN   08:25   0:00 [khugepaged]
+root          72  0.0  0.0      0     0 ?        I<   08:25   0:00 [kintegrityd]
+root          73  0.0  0.0      0     0 ?        I<   08:25   0:00 [kblockd]
+root          74  0.0  0.0      0     0 ?        I<   08:25   0:00 [blkcg_punt_bio]
+root          75  0.0  0.0      0     0 ?        S    08:25   0:00 [xen-balloon]
+root          76  0.0  0.0      0     0 ?        I<   08:25   0:00 [tpm_dev_wq]
+root          77  0.0  0.0      0     0 ?        I<   08:25   0:00 [ata_sff]
+root          78  0.0  0.0      0     0 ?        I<   08:25   0:00 [md]
+root          79  0.0  0.0      0     0 ?        I<   08:25   0:00 [edac-poller]
+root          80  0.0  0.0      0     0 ?        I<   08:25   0:00 [devfreq_wq]
+root          81  0.0  0.0      0     0 ?        S    08:25   0:00 [watchdogd]
+root          82  0.0  0.0      0     0 ?        I    08:25   0:00 [kworker/u30:1-events_power_efficient]
+root          83  0.0  0.0      0     0 ?        I<   08:25   0:00 [kworker/0:1H-kblockd]
+root          85  0.0  0.0      0     0 ?        S    08:25   0:00 [kswapd0]
+root          86  0.0  0.0      0     0 ?        S    08:25   0:00 [ecryptfs-kthrea]
+root          88  0.0  0.0      0     0 ?        I<   08:25   0:00 [kthrotld]
+root          89  0.0  0.0      0     0 ?        I<   08:25   0:00 [acpi_thermal_pm]
+root          90  0.0  0.0      0     0 ?        S    08:25   0:00 [xenbus]
+root          91  0.0  0.0      0     0 ?        S    08:25   0:00 [xenwatch]
+root          92  0.0  0.0      0     0 ?        I<   08:25   0:00 [nvme-wq]
+root          93  0.0  0.0      0     0 ?        I<   08:25   0:00 [nvme-reset-wq]
+root          94  0.0  0.0      0     0 ?        I<   08:25   0:00 [nvme-delete-wq]
+root          95  0.0  0.0      0     0 ?        S    08:25   0:00 [scsi_eh_0]
+root          96  0.0  0.0      0     0 ?        I<   08:25   0:00 [scsi_tmf_0]
+root          97  0.0  0.0      0     0 ?        S    08:25   0:00 [scsi_eh_1]
+root          98  0.0  0.0      0     0 ?        I<   08:25   0:00 [scsi_tmf_1]
+root         100  0.0  0.0      0     0 ?        I<   08:25   0:00 [vfio-irqfd-clea]
+root         101  0.0  0.0      0     0 ?        I<   08:25   0:00 [ipv6_addrconf]
+root         110  0.0  0.0      0     0 ?        I<   08:25   0:00 [kstrp]
+root         113  0.0  0.0      0     0 ?        I<   08:25   0:00 [zswap-shrink]
+root         114  0.0  0.0      0     0 ?        I<   08:25   0:00 [kworker/u31:0]
+root         119  0.0  0.0      0     0 ?        I<   08:25   0:00 [charger_manager]
+root         120  0.0  0.0      0     0 ?        S    08:25   0:00 [jbd2/xvda1-8]
+root         121  0.0  0.0      0     0 ?        I<   08:25   0:00 [ext4-rsv-conver]
+root         160  0.0  1.3  53336 13668 ?        S<s  08:25   0:00 /lib/systemd/systemd-journald
+root         191  0.0  0.0      0     0 ?        I    08:25   0:00 [kworker/0:3-events]
+root         193  0.0  0.4   8588  4804 ?        Ss   08:25   0:00 /lib/systemd/systemd-udevd
+root         205  0.0  0.0      0     0 ?        I<   08:25   0:00 [cryptd]
+root         260  0.0  0.0      0     0 ?        I<   08:25   0:00 [kaluad]
+root         261  0.0  0.0      0     0 ?        I<   08:25   0:00 [kmpath_rdacd]
+root         262  0.0  0.0      0     0 ?        I<   08:25   0:00 [kmpathd]
+root         263  0.0  0.0      0     0 ?        I<   08:25   0:00 [kmpath_handlerd]
+root         264  0.0  1.8 280208 17996 ?        SLsl 08:25   0:00 /sbin/multipathd -d -s
+root         273  0.0  0.0      0     0 ?        S<   08:25   0:00 [loop0]
+root         275  0.0  0.0      0     0 ?        S<   08:25   0:00 [loop1]
+root         278  0.0  0.0      0     0 ?        S<   08:25   0:00 [loop2]
+root         282  0.0  0.0      0     0 ?        S<   08:25   0:00 [loop3]
+root         284  0.0  0.0      0     0 ?        S<   08:25   0:00 [loop4]
+systemd+     304  0.0  0.6  90008  5968 ?        Ssl  08:25   0:00 /lib/systemd/systemd-timesyncd
+systemd+     372  0.0  0.7  26612  7472 ?        Ss   08:25   0:00 /lib/systemd/systemd-networkd
+systemd+     375  0.0  1.2  23904 12084 ?        Ss   08:25   0:00 /lib/systemd/systemd-resolved
+root         434  0.0  0.9 241044  9196 ?        Ssl  08:25   0:00 /usr/lib/accountsservice/accounts-daemon
+root         435  0.0  0.0   2548   788 ?        Ss   08:25   0:00 /usr/sbin/acpid
+root         442  0.0  0.2   8544  2756 ?        Ss   08:25   0:00 /usr/sbin/cron -f
+message+     443  0.0  0.4   7552  4332 ?        Ss   08:25   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root         452  0.0  1.7  29204 17472 ?        Ss   08:25   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+syslog       454  0.0  0.4 224508  4632 ?        Ssl  08:25   0:00 /usr/sbin/rsyslogd -n -iNONE
+root         455  0.1  4.3 742064 43140 ?        Ssl  08:25   0:01 /usr/lib/snapd/snapd
+root         457  0.0  0.7  16656  7736 ?        Ss   08:25   0:00 /lib/systemd/systemd-logind
+root         463  0.0  1.3 394696 13552 ?        Ssl  08:25   0:00 /usr/lib/udisks2/udisksd
+daemon       469  0.0  0.2   3800  2388 ?        Ss   08:25   0:00 /usr/sbin/atd -f
+root         607  0.0  0.9 236432  8972 ?        Ssl  08:25   0:00 /usr/lib/policykit-1/polkitd --no-debug
+root         616  0.0  0.2   7360  2268 ttyS0    Ss+  08:25   0:00 /sbin/agetty -o -p -- \u --keep-baud 115200,38400,9600 ttyS0 vt220
+root         640  0.0  1.9 108116 19496 ?        Ssl  08:25   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+root         645  0.0  0.1   5836  1776 tty1     Ss+  08:25   0:00 /sbin/agetty -o -p -- \u --noclear tty1 linux
+root         647  0.0  0.6  12184  6676 ?        Ss   08:25   0:00 sshd: /usr/sbin/sshd -D -o AuthorizedKeysCommand /usr/share/ec2-instance-connect/eic_run_authorized_keys %u %f -o AuthorizedKeysCommandUser ec2-instance-connect [listener] 0 of 10-100 startups
+root        1076  0.0  1.5 1232856 15552 ?       Ssl  08:25   0:00 /snap/amazon-ssm-agent/4046/amazon-ssm-agent
+root        1114  0.0  2.8 1247552 28560 ?       Sl   08:25   0:00 /snap/amazon-ssm-agent/4046/ssm-agent-worker
+root        1157  0.0  0.7  13804  7872 ?        Ss   08:29   0:00 sshd: ubuntu [priv]
+ubuntu      1160  0.0  0.9  18280  9424 ?        Ss   08:29   0:00 /lib/systemd/systemd --user
+ubuntu      1161  0.0  0.4 104000  4268 ?        S    08:29   0:00 (sd-pam)
+ubuntu      1261  0.0  0.5  13936  5384 ?        S    08:29   0:00 sshd: ubuntu@pts/0
+ubuntu      1265  0.0  0.5  10184  4988 pts/0    Ss   08:29   0:00 -bash
+root        2453  0.0  3.8 1197108 38532 ?       Ssl  08:31   0:01 /usr/bin/containerd
+root        2601  0.0  7.7 1235936 76720 ?       Ssl  08:31   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+root        2617  0.0  0.0   2496   520 ?        S    08:31   0:00 bpfilter_umh
+ubuntu      4066  0.0  0.3   8624  3152 pts/0    S+   08:49   0:00 bash save_pid.sh
+ubuntu      4067  0.0  0.3  10784  3472 pts/0    R+   08:49   0:00 ps aux --sort +pid

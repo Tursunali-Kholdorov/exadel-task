@@ -1,0 +1,7 @@
+    Steps that I follow to troubleshoot the issue(On ubuntu 20.04):
+	1. Check whether ssh is intalled or not. If not installed install it via `sudo apt-get install openssh-client`. Try to connect. If not connected go next step.
+	2. Check if ssh port I am using is correct. Use the correct one. Try to connect. If not connected go next step.
+	3. If situation is related to keys: 
+					i. Take my public key from .ssh directory or where I have them. Copy the contents and add it to my server's authorized_keys file.
+					ii. Or, Copy private key of the server and save it somewhere in my local machine. Then connect to the server with "ssh -i <path/to/private/key> username@hostname -p <port>"
+	4. There may be some restrictions for ssh in firewall. Consider allowing ssh connection with "sudo ufw allow ssh"
